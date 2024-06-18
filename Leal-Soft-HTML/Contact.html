@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <title>Leal Software Solution</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+<body>
+   
+  <nav class="navbar background">
+    <ul class="nav-list">
+        <div class="logo"><img src="LealSoftwareSolution.jpg" alt="logo"></div>
+        <li><b><a href="Main.html">Home</a></b></li>
+        <li><b><a href="About.html">About</a></b></li>
+        <li class="has-submenu">
+            <b><span>Software</span></b>
+            <ul class="submenu">
+              <li><a href="HEATLOAD.html">HVAC HEATLOAD CALCULATION</a></li>
+              <li><a href="GADRAW.html">LEAL GADRAW</a></li>
+              <li><a href="TASK_Manager.html">HVAC TASK MANAGER</a></li>
+              <li><a href="BUSINESS.html">LEAL BUSINESS SOLUTION</a></li>
+            </ul>
+        </li>
+        <li><b><a href="Services.html">Services</a></b></li>
+        <li><b><a href="Research.html">Research</a></b></li>
+        <li><b><a href="Contact.html">Contact</a></b></li> 
+    </ul>
+</nav>
+
+
+    <section class="contact11">
+        <div class="content1">
+            <h2>Contact</h2>
+            <p><b>Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of 
+                the below instant messaging programs.</b></p>
+        </div>
+
+        <div class="condition">
+          <div class="conditionInfo">
+          <div class="box">
+            <div class="Icon1"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="Texting1">
+                <h3>Address</h3>
+                <p>Leal Software Solution Pvt. Ltd.<br>
+                    Second Floor, Prestige BytcoBussiness Center, Bytco Point, Nasik Road,<br>
+                    Nashik, Maharashtra 422101</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="Icon1"><i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="Texting1">
+                <h3>Email</h3>
+                <p>info@lealsolution.com</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="Icon1"><i class="fa fa-phone"></i>    
+            </div>
+            <div class="Texting1">
+                <h3>Phone</h3>
+                <p>+91 7410016111/ 7410016113/ 7410016114.</p>
+            </div>
+        </div>
+
+          </div>
+        </div>
+    </section>
+
+    <div id="map-container"></div>
+
+    <script>
+      const apiKey = 'AIzaSyA9eQHCx6105WAdP22gfbmQ979lFVz9fvc';
+      const locationAddress = 'Hinjewadi, Pune 411057';
+  
+      function initMap() {
+        const mapContainer = document.getElementById('map-container');
+        
+        const geocoder = new google.maps.Geocoder();
+        geocoder.geocode({ address: locationAddress }, function (results, status) {
+          if (status === 'OK' && results[0].geometry) {
+            const map = new google.maps.Map(mapContainer, {
+              center: results[0].geometry.location,
+              zoom: 15
+            });
+  
+            const marker = new google.maps.Marker({
+              map: map,
+              position: results[0].geometry.location,
+              title: locationAddress
+            });
+          } else {
+            console.error('Error geocoding address:', status);
+          }
+        });
+      }
+    </script>
+  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9eQHCx6105WAdP22gfbmQ979lFVz9fvc&callback=initMap"></script>
+
+</head>
+    <section class="Leal-Form">
+      <div class="contact-form">
+          <h2>Leal Software Contact Form</h2>
+          <form id="contact-form" action="#" method="post">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="mobile">Your Mobile:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="subject">Your Subject:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+      
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+      </section>
+          <footer class="background-last">
+              <p class="text-footer">
+                  Copyright &copy; 2023 www.lealsolution.com - All rights reserved
+              </p>
+          </footer>
+    </body>
+</html>

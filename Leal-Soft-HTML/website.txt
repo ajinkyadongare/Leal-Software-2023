@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <title>Education  Onlie System</title>
+</head>
+<body>
+    <nav class="navbar background">
+    <ul class="nav-list">
+        <div class="logo"><img src="image.jpg" alt="logo"></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="services">Services</a></li>
+        <li><a href="contact">Contact User</a></li>
+    </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Future of MacBook Version is here</p>
+                <p class="text-small">The future of the MacBook brings remarkable advancements, featuring Apple's groundbreaking 
+                    ARM processors for exceptional performance and energy efficiency. Its sleek design showcases a nearly bezel-less
+                    Retina XDR display, delivering stunning visuals. User interaction is enhanced with a touch-sensitive keyboard, 
+                    while 5G connectivity ensures seamless internet access. Top-notch security and privacy features include advanced
+                    biometric authentication and robust encryption.  </p>
+                 <div class="buttons">
+                <button class="btn">Subscribe</button>
+                <button class="btn">Watch Video</button>
+            </div>
+            </div>
+            <div class="secondHalf">
+                <img src="image.jpg" alt="Laptop Image">
+            </div>
+        </div>
+    </section>  
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">MacBook Description feature</p>
+        <p class="sectionSubTag text-small">The MacBook is Apple's third laptop computer family, introduced in 2006. Prior laptops were the PowerBook and iBook. 
+            The MacBook Air and MacBook Pro are the remaining models. The original MacBook was dropped in 2011 only to be resurrected
+            thinner and lighter in 2015 and then discontinued in 2019.
+            In 2015, new MacBooks featured Apple's Retina Display and higher resolutions, as well as the Force Touch trackpad that senses
+            different pressure levels. By the end of 2016, all MacBooks used solid state drives (SSDs).
+            he MacBook Pro was the first Mac laptop to use Intel CPUs, and the Pro line offers the fastest laptop processors and largest 
+            screens (see MacBook Pro). In 2020, Apple replaced the Intel CPU with its own (see Apple M series).
+            Launched in 2008, the Air is Apple's lightest laptop, and its touchpad added gesture-based multitouch like the iPhone. In 2023,
+            a 15" Air debuted with the largest screen on an Air model. See Macintosh Portable and Mac computer.
+            The MacBook is carved out of solid aluminum, thus giving it a distinctive look and a grayish-white hue. The MacBook Air in particular 
+            has a thin and light design. There are two versions of the MacBook Air: the 11-inch, with an 11.6-inch screen; and the 13-inch, with a 
+            13.3-inch screen. Apple splits the MacBook Pro into a 13-inch and a 15-inch, with the latter consisting of a 15.4-inch screen. Each computer
+             has a full-size, backlit 78-key keyboard.
+             The MacBook Air is Apple's least expensive notebook computer. While the 1st generation was released as a premium ultraportable 
+             positioned above the 2006 – 2012 MacBook, lowered prices on subsequent iterations and the discontinuation of that MacBook has made it 
+             serve as the entry-level Mac portable. The 2010 to 2017 base model came with a 13-inch screen and was Apple's thinnest notebook computer
+             until the introduction of the MacBook in March 2015. This MacBook Air model features two USB Type-A 3.0 ports and a Thunderbolt 2 port, 
+             as well as an SDXC card slot (only on the 13inch model). This model of MacBook Air did not have a Retina Display. A MacBook Air model with
+             an 11-inch screen was available from October 2010 to October 2016. In 2017, the MacBook Air received a small refresh, with the processor
+             speed increased to 1.8 GHz.
+             
+             On October 30, 2018, the MacBook Air underwent a major design change, dropping the USB Type-A ports, MagSafe, and the SD card slot in favor 
+             of two USB-C/Thunderbolt 3 ports and a headphone jack. It was updated with a Retina display and Intel Y-series Amber Lake i5 CPUs, as well as
+             a Force Touch trackpad, a third-generation butterfly mechanism keyboard, and the Touch ID sensor found in the fourth-generation MacBook Pro, 
+             but without the Touch Bar. The base price was also raised, although the base configuration of the 2017 model was retained until July 9, 2019, 
+             when it was discontinued along with the Retina MacBook.[7] The base price of this model was also dropped to $1099 ($999 for students) on the same day.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="laptop1.jpg" alt="Laptop Image" class="imgFluid">
+                </div>
+            </section>
+
+
+            <section class="section section-left">
+                <div class="paras">
+                <p class="sectionTag text-big">MacBook Working feature</p>
+                <p class="sectionSubTag text-small">The MacBook family was initially housed in designs similar to the iBook and PowerBook lines which preceded them, now making 
+                    use of a unibody aluminum construction first introduced with the MacBook Air. This new construction also has a black plastic 
+                    keyboard that was first used on the MacBook Air, which itself was inspired by the sunken keyboard of the original polycarbonate MacBooks.
+                    The now standardized keyboard brings congruity to the MacBook line, with black keys on a metallic aluminum body.
+                    
+                    The lids of the MacBook family are held closed by a magnet with no mechanical latch, a design element first introduced with the polycarbonate
+                    MacBook. The Memory, drives, and batteries were accessible in the old MacBook lineup, though the newest compact lineup solders or glues all such
+                    components in place. All of the current MacBooks feature backlit keyboards.
+                    
+                    The MacBook was discontinued from February 2012 until March 2015, when a new model featuring an ultraportable design and an all-metal enclosure
+                    was introduced. It was again discontinued in July 2019 following a price reduction of the 3rd generation MacBook Air and discontinuation of the
+                    2nd generation model.
+                    As part of the Mac transition to Intel processors, Apple released a 13-inch laptop simply named "MacBook", as a successor to the PowerPC-based iBook
+                    series of laptops. During its existence, it was the most affordable Mac, serving as an entry-level laptop that was less expensive than the rest of the
+                     Mac laptop lineup (the MacBook Pro portable workstation, and later the MacBook Air ultra-portable). It was aimed at the consumer and education markets.
+                    Successive revisions of the MacBook were sold to consumers between May 2006 and July 2011, by which time it been superseded by the MacBook Air which had 
+                    a lower entry price.[2] Apple continued to sell the MacBook to educational institutions until February 2012.[3][4]
+                    
+                    During its existence, it was the best-selling Mac in Apple's history. For five months in 2008, it was the best-selling laptop of any brand in US retail stores.
+                    [5] Collectively, the MacBook brand was the "world's top-selling line of premium laptops."[6]
+                    
+                    There have been three separate designs of this MacBook. The original design used a combination of polycarbonate and fiberglass casing which was modeled after
+                     the iBook G4. The second design, introduced in October 2008 alongside the 15-inch MacBook Pro, shared the latter's unibody aluminium casing, but lacked a 
+                    FireWire port. A third design, introduced in late 2009, retained a similar unibody construction but changed back to white polycarbonate.</p>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="laptop2.jpg" alt="Laptop Image" class="imgFluid">
+                        </div>
+                    </section>
+
+
+                    <section class="section">
+                        <div class="paras">
+                        <p class="sectionTag text-big">MacBook Version feature</p>
+                        <p class="sectionSubTag text-small">Operating Specifications
+                            Apple bundles each MacBook with the OS X operating system. On each computer there's a dual-core processor from Intel’s Intel Core brand, 
+                            with Turbo Boost technology for increased performance. Each MacBook Air gets a mid-range Intel Core i5, with a processing speed of 1.7 or 1.8 GHz. 
+                            The 13-inch MacBook Pro has a 2.5- or 2.9-GHz chip, while the one on the 15-inch MacBook Pro is a more powerful but slower 2.3 GHz quad-core Intel Core i7. 
+                            Peak installed memory on the MacBook Air is 8GB, with 1600MHz DDR3 architecture.
+                            
+                            Media and Communication
+                            The built-in Intel HD Graphics 4000 handles basic video duties, with the 15-inch MacBook Pro getting a more advanced NVIDIA GeForce GT 650M. Audio specifications
+                             include stereo speakers and a headphone port, with one omnidirectional microphone on the MacBook Air and two on the MacBook Pro. Wireless technology on the MacBook
+                             consists of Bluetooth 4.0 wireless technology for streaming audio and a Wi-Fi network adapter that enables Web browsing. Also included is a FaceTime Camera with a peak
+                             resolution of 720 pixels. For storage, the MacBook Air has a 64- or 128-GB flash drive, while the MacBook Pro has 500 or 750GB of hard drive space. Added on the MacBook
+                             Pro is an 8x Super Drive slot for playing CDs and DVDs.
+                            
+                            Interfaces
+                            Apart from the aforementioned headphone jack, each MacBook has at least one port for the power adapter, two USB 3.0 ports and Apple/Intel’s Thunderbolt interface. 
+                            A Secure Digital flash memory card slot is present on all models but the 11-inch MacBook Air. Exclusive to the MacBook Pro are an Ethernet port for wired internet connection,
+                             FireWire 800 port for data transfer and an anti-theft device called Kensington Security Slot. The 15-inch MacBook Pro is the only model with audio line-in and audio line-out 
+                            jacks for recording purposes.
+                            
+                            Display and Power
+                            Each MacBook Pro has a high-resolution, LED-backlit glossy widescreen display. The maximum native resolution on the MacBook is 1,440 by 900 pixels. However, Apple provides a Retina 
+                            Display option for the MacBook Pro that boosts resolution to 2,880 by 1,800 pixels. For power, the MacBook relies on a built-in lithium-polymer battery and a MagSafe 2 power adapter.
+                            </p>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="laptop3.jpg" alt="Laptop Image" class="imgFluid">
+                                </div>
+                            </section>
+                            
+                            <section class="contact">
+                            <h2 class="text-center">Contact Us</h2>
+                            <div class="form">
+                                <input type="text" name="Name" id="name" placeholder="Enter Your Name">
+                                <input type="text" name="E-Mail" id="email" placeholder="Enter Your E-Mail">
+                                <input type="text" name="Mobile" id="mobile" placeholder="Enter Your Mobile">
+                                <input type="text" name="Country" id="country" placeholder="Enter Your Country">
+                                <input type="text" name="Name" id="subject" placeholder="Enter Your Subject">
+                                <input type="text" name="Name" id="message" placeholder="Enter Your Message">
+                                <!-- <input type="text" name="Name" id="name" placeholder="Enter Your Name">
+                                <input type="text" name="Name" id="name" placeholder="Enter Your Name"> -->
+                                <button class="btn btn-dark">Submit</button>
+
+
+                                
+
+                            </div>
+                            </section>
+
+                    </body>  
+                </html>
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0
+}
+.logo 
+{
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo img 
+{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list 
+{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+.nav-list li
+{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a :hover
+{
+    text-decoration: none;
+    color: green;
+}
+.rightNav
+{
+   /* background-color: blueviolet; */
+   width: 50%;
+   text-align: right;
+   padding: 0 23px;
+}
+#search
+{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px soild gray;
+    border-radius: 9px;
+}
+.background
+{
+    background: rgba(0, 0, 0, 0.7) url('../night.jpg') ;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.firstSection
+{
+    height: 100vh;
+}
+.box-main 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf
+{
+    width:30%;
+}
+.secondHalf img
+{
+    width:125%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.text-big 
+{
+    font-size:31px;
+}
+.text-small 
+{
+    font-size: 13px;
+}
+.btn
+{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px soild white;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+}
+.btn-sm
+{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.btn-dark
+{
+    color: black;
+    border: 2px solid black;
+}
+.section
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left
+{
+    flex-direction: row-reverse; 
+}
+.paras
+{
+    padding: 0px 65px;
+}
+.sectionTag
+{
+  padding: 16px 0;
+}
+.sectionSubTag
+{
+    font-family:'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+.thumbnail img
+{
+    width: 250px;
+    border: 2px soild black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.contact
+{
+    background-color: rgba(238, 232, 232, 0.87);
+    height: 150vh;
+}
+.text-center
+{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form
+{
+    max-width: 344px;
+    margin: auto;
+}
+.form input
+{
+    margin: 10px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}	
+
+
+https://codepen.io/colorlib/pen/KVoZyv
+
